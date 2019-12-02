@@ -1,0 +1,32 @@
+{
+  "fitbit": {
+    "appUUID": "7776ba11-271f-469e-b6e4-16f411d9819b",
+    "appType": "clockface",
+    "appDisplayName": "DigitalClockfaceWithHR",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "DigitalClockfaceWithHR"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.3"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
